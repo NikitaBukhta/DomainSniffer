@@ -83,7 +83,7 @@ namespace domainSniffer
 
         for (const auto &domainName : _allowedDomains)
         {
-            if (isIPBelongToDomain(ip_str, "music.youtube.com"))
+            if (isIPBelongToDomain(ip_str, domainName))
             {
                 std::cout << "Detected IP: " << ip_str << std::endl;
                 std::cout << "Domain: " << domainName << std::endl;
