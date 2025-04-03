@@ -32,6 +32,7 @@ add_subdirectory(npcap)
 set(
     ALL_LIBS
     libnpcap
+    Ws2_32.lib
 )
 
 target_link_libraries(
